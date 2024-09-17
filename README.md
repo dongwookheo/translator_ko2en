@@ -12,6 +12,7 @@ The translator that converts Korean to English using Gemma.
 - [flash-attn](https://pypi.org/project/flash-attn/)
 ## How to use
 ![image](https://github.com/user-attachments/assets/2bf2c83e-4712-42f6-94b5-1cdcc9d232fc)
+
 0. Sign in huggingface-cli
 1. Run `main.py`
 2. Enter the Korean text you want to translate to English.
