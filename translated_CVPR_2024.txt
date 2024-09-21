@@ -1,0 +1,42 @@
+Title: Unmixing Diffusion for Self-Supervised Hyperspectral Image Denoising
+
+URL: https://openaccess.thecvf.com//content/CVPR2024/html/Zeng_Unmixing_Diffusion_for_Self-Supervised_Hyperspectral_Image_Denoising_CVPR_2024_paper.html
+
+Abstract:
+ Hyperspectral images (HSIs) have extensive applications in various fields such as medicine agriculture and industry. Nevertheless acquiring high signal-to-noise ratio HSI poses a challenge due to narrow-band spectral filtering. Consequently the importance of HSI denoising is substantial especially for snapshot hyperspectral imaging technology. While most previous HSI denoising methods are supervised creating supervised training datasets for the diverse scenes hyperspectral cameras and scan parameters is impractical. In this work we present Diff-Unmix a self-supervised denoising method for HSI using diffusion denoising generative models. Specifically Diff-Unmix addresses the challenge of recovering noise-degraded HSI through a fusion of Spectral Unmixing and conditional abundance generation. Firstly it employs a learnable block-based spectral unmixing strategy complemented by a pure transformer-based backbone. Then we introduce a self-supervised generative diffusion network to enhance abundance maps from the spectral unmixing block. This network reconstructs noise-free Unmixing probability distributions effectively mitigating noise-induced degradations within these components. Finally the reconstructed HSI is reconstructed through unmixing reconstruction by blending the diffusion-adjusted abundance map with the spectral endmembers. Experimental results on both simulated and real-world noisy datasets show that Diff-Unmix achieves state-of-the-art performance.
+
+Translated Abstract:
+ 하이퍼스펙트럼 이미지(Hyperpectral images, HSI)는 의료, 농업, 산업 등 다양한 분야에서 많이 사용돼. 하지만 고신호 대 잡음 비율(high signal-to-noise ratio, SNR) HSI를 얻는 건 좁은 대역 스펙트럼 필터링 때문에 어려워. 그래서 HSI 노이즈 제거의 중요성이 커, 특히 스냅샷 하이퍼스펙트럼 이미징 기술에선 더욱 그렇고. 대부분의 기존 HSI 노이즈 제거 방법은 감독 학습(supervised) 방식인데, 다양한 장면과 하이퍼스펙트럼 카메라, 스캔 파라미터에 맞춘 감독 학습 데이터셋을 만드는 게 비현실적이야. 
+
+이 연구에서는 Diff-Unmix라는 자가 감독(self-supervised) 노이즈 제거 방법을 제안해. 이건 확산 노이즈 제거 생성 모델(diffusion denoising generative models)을 사용해. Diff-Unmix는 노이즈로 손상된 HSI를 복원하는 문제를 스펙트럴 언믹싱(Spectral Unmixing)과 조건부 풍부도 생성(conditional abundance generation)을 결합해서 해결해. 먼저, 학습 가능한 블록 기반 스펙트럴 언믹싱 전략을 활용하고, 순수 트랜스포머 기반 백본을 보완해. 그리고 스펙트럴 언믹싱 블록에서 풍부도 맵을 향상시키기 위해 자가 감독 생성 확산 네트워크(self-supervised generative diffusion network)를 도입해. 이 네트워크는 노이즈 없는 언믹싱 확률 분포를 효과적으로 복원해서 노이즈로 인한 손상을 줄여. 마지막으로, 확산 조정된 풍부도 맵과 스펙트럴 엔드멤버를 섞어서 언믹싱 복원을 통해 HSI를 재구성해. 
+
+실제와 시뮬레이션한 노이즈 데이터셋에서 실험한 결과, Diff-Unmix가 최신 기술(state-of-the-art) 성능을 달성했다는 걸 보여줘.
+
+====================================================================================================
+
+Title: Seeing the World through Your Eyes
+
+URL: https://openaccess.thecvf.com//content/CVPR2024/html/Alzayer_Seeing_the_World_through_Your_Eyes_CVPR_2024_paper.html
+
+Abstract:
+ The reflective nature of the human eye is an under-appreciated source of information about what the world around us looks like. By imaging the eyes of a moving person we capture multiple views of a scene outside the camera's direct line of sight through the reflections in the eyes. In this paper we reconstruct a radiance field beyond the camera's line of sight using portrait images containing eye reflections. This task is challenging due to 1) the difficulty of accurately estimating eye poses and 2) the entangled appearance of the iris textures and the scene reflections. To address these our method jointly optimizes the cornea poses the radiance field depicting the scene and the observer's eye iris texture. We further present a regularization prior on the iris texture to improve scene reconstruction quality. Through various experiments on synthetic and real-world captures featuring people with varied eye colors and lighting conditions we demonstrate the feasibility of our approach to recover the radiance field using cornea reflections.
+
+Translated Abstract:
+ 인간의 눈이 반사하는 특성은 우리가 주변 세상을 어떻게 보는지에 대한 정보를 제공하는 중요한 요소인데, 잘 알려져 있지 않아요. 움직이는 사람의 눈을 촬영하면, 카메라가 직접 보지 못하는 장면의 여러 각도를 눈의 반사로 포착할 수 있어요. 이 논문에서는 눈 반사가 포함된 초상화 이미지를 사용해 카메라 시야 바깥의 방사장(field of radiance)을 재구성하는 방법을 다뤘어요. 이 작업은 1) 눈의 위치를 정확하게 추정하는 게 어렵고, 2) 홍채(iris) 질감과 장면 반사가 얽혀 있어서 힘든데요. 이를 해결하기 위해서, 우리의 방법은 각막(cornea) 위치, 장면을 나타내는 방사장, 그리고 관찰자의 눈 홍채 질감을 함께 최적화해요. 그리고 장면 재구성 품질을 높이기 위해 홍채 질감에 대한 정규화 기준도 제시해요. 다양한 실험을 통해 여러 눈 색깔과 조명 조건을 가진 사람들을 촬영한 결과, 각막 반사를 이용해 방사장을 복원할 수 있다는 것을 보여줬어요.
+
+====================================================================================================
+
+Title: DPMesh: Exploiting Diffusion Prior for Occluded Human Mesh Recovery
+
+URL: https://openaccess.thecvf.com//content/CVPR2024/html/Zhu_DPMesh_Exploiting_Diffusion_Prior_for_Occluded_Human_Mesh_Recovery_CVPR_2024_paper.html
+
+Abstract:
+ The recovery of occluded human meshes poses challenges for current methods due to the difficulty in extracting effective image features under severe occlusion. In this paper we introduce DPMesh an innovative framework for occluded human mesh recovery that capitalizes on the profound knowledge about object structure and spatial relationships embedded in a pre-trained text-to-image diffusion model. Unlike previous methods reliant on conventional backbones for vanilla feature extraction DPMesh seamlessly integrates the pre-trained denoising U-Net with potent priors as its image backbone and performs a single-step inference to provide occlusion-aware information. To enhance the perception capability for occluded poses DPMesh incorporates judicious guidance via condition injection which produces effective controls from 2D observations for the denoising U-Net. Furthermore we explore a dedicated noisy key-point reasoning approach to mitigate disturbances arising from occlusion and crowded scenarios. This strategy fully unleashes the perceptual capability of the diffusion prior thereby enhancing accuracy. Extensive quantitative and qualitative experiments affirm the efficacy of our framework as we outperform state-of-the-art methods on both occlusion-specific and standard datasets underscoring its ability to achieve precise and robust 3D human mesh recovery particularly in challenging scenarios involving occlusion and crowded scenes. Code is available at https://github.com/EternalEvan/DPMesh.
+
+Translated Abstract:
+ 가려진 사람 메시(occluded human meshes)를 복구하는 건 현재 방법들에겐 어려운 일인데, 심한 가림이 있을 때 효과적인 이미지 특징을 뽑아내기 힘든 게 이유야. 이 논문에서 우리는 DPMesh라는 혁신적인 프레임워크를 소개하는데, 이건 사전 학습된 텍스트-이미지 확산 모델(text-to-image diffusion model)에 내장된 객체 구조와 공간 관계에 대한 깊은 지식을 활용해. 이전 방법들이 일반적인 백본(backbone)을 사용해 기본적인 특징을 추출했던 것과는 달리, DPMesh는 사전 학습된 디노이징 U-Net(denoising U-Net)과 강력한 프라이어(prior)를 이미지 백본으로 통합하고, 단일 단계 추론(single-step inference)을 통해 가림 정보를 제공해. 
+
+가려진 자세에 대한 인식 능력을 높이기 위해 DPMesh는 조건 주입(condition injection)을 통해 효과적인 제어를 만들어내는 지능적인 가이드를 포함해. 게다가 가림이나 복잡한 상황에서 생기는 방해를 줄이기 위한 특별한 노이즈 키포인트(reasoning approach)도 탐구했어. 이 전략은 확산 프라이어의 인식 능력을 최대한 활용해 정확도를 높여줘. 많은 양의 정량적 및 정성적 실험이 우리의 프레임워크의 효과를 입증했으며, 우리는 가림 특정 데이터셋과 일반 데이터셋 모두에서 최신 방법들을 초월하면서 특히 가림이나 복잡한 장면에서 정확하고 강력한 3D 사람 메시 복구를 이뤘어. 코드는 https://github.com/EternalEvan/DPMesh에서 확인할 수 있어.
+
+====================================================================================================
+
