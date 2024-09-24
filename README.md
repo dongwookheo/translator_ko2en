@@ -30,3 +30,7 @@
 ## Reference
 [Model](https://huggingface.co/brildev7/gemma-1.1-7b-it-translation-koen-sft-qlora)  
 [arxiv_gpt_korean_translator](https://github.com/gisbi-kim/arxiv_gpt_korean_translator)  
+
+## Todo
+- Threading
+- Adding conferences(ECCV, ICRA, IROS, ...)
